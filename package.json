@@ -3,12 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.10",
+    "@mui/x-data-grid": "^5.17.25",
+    "@syncfusion/ej2": "^20.4.51",
+    "@syncfusion/ej2-data": "^20.4.48",
+    "@syncfusion/ej2-react-calendars": "^20.4.51",
+    "@syncfusion/ej2-react-charts": "^20.4.51",
+    "@syncfusion/ej2-react-dropdowns": "^20.4.51",
+    "@syncfusion/ej2-react-grids": "^20.4.51",
+    "@syncfusion/ej2-react-inputs": "^20.4.51",
+    "@syncfusion/ej2-react-kanban": "^20.4.48",
+    "@syncfusion/ej2-react-popups": "^20.4.51",
+    "@syncfusion/ej2-react-richtexteditor": "^20.4.51",
+    "@syncfusion/ej2-react-schedule": "^20.4.51",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-calendar": "^4.0.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.1",
+    "recharts": "^2.4.3",
+    "sass": "^1.58.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +56,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "package.json": "^2.0.1",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.7"
   }
 }
